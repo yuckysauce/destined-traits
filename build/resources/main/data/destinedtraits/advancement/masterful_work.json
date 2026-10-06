@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:anvil"
+    },
+    "title": {
+      "translate": "advancements.masterful_work.title"
+    },
+    "description": {
+      "translate": "advancements.masterful_work.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enhance_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "destinedtraits:enhance"
+}

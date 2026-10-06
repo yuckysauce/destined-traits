@@ -1,0 +1,18 @@
+{
+  "type": "destinedtraits:exotic_injection",
+  "conditions": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "dimension": "minecraft:the_nether"
+      }
+    }
+  ],
+  "base_item": "minecraft:bow",
+  "custom_name": "Hades Arcanum",
+  "perks": {
+  	"origin_trait": "destinedtraits:forsaken_rite"
+  },
+  "tier_min": 1,
+  "tier_max": 1
+}

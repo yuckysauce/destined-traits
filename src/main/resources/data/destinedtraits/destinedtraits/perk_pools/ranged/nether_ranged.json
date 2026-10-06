@@ -1,0 +1,12 @@
+{
+  "left_column": [
+    "destinedtraits:rapid_hit",
+    "destinedtraits:attrition_orbs",
+    "destinedtraits:subsistence"
+  ],
+  "right_column": [
+    "destinedtraits:withering_touch",
+    "destinedtraits:rampage",
+    "destinedtraits:cauterize"
+  ]
+}

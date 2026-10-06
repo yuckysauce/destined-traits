@@ -1,0 +1,42 @@
+{
+  "left_column": [
+    "destinedtraits:rapid_hit",
+    "destinedtraits:pulse_monitor",
+    "destinedtraits:subsistence",
+    "destinedtraits:field_prep",
+    "destinedtraits:quickdraw",
+    "destinedtraits:utilitarian",
+    "destinedtraits:demolitionist",
+    "destinedtraits:attrition_orbs",
+    "destinedtraits:loose_change",
+    "destinedtraits:eager_edge",
+    "destinedtraits:repulsor_brace",
+    "destinedtraits:perpetual_motion",
+    "destinedtraits:envious_arsenal",
+    "destinedtraits:killing_wind",
+    "destinedtraits:ensemble",
+    "destinedtraits:perfect_float",
+    "destinedtraits:cauterize",
+    "destinedtraits:rising_deep"
+  ],
+  "right_column": [
+    "destinedtraits:rampage",
+    "destinedtraits:under_pressure",
+    "destinedtraits:unrelenting",
+    "destinedtraits:adrenaline_junkie",
+    "destinedtraits:withering_touch",
+    "destinedtraits:adagio",
+    "destinedtraits:surrounded",
+    "destinedtraits:tear",
+    "destinedtraits:dragonfly",
+    "destinedtraits:bait_and_switch",
+    "destinedtraits:under_over",
+    "destinedtraits:target_lock",
+    "destinedtraits:precision_instrument",
+    "destinedtraits:one_for_all",
+    "destinedtraits:harmony",
+    "destinedtraits:high_ground",
+    "destinedtraits:frenzy",
+    "destinedtraits:firing_line"
+  ]
+}

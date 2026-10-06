@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "entries": [
+  	"destinedtraits:exotic_alchemy_carve",
+    "destinedtraits:exotic_cycadian_arbor",
+    "destinedtraits:exotic_the_voidshell",
+    "destinedtraits:exotic_warden_of_eternities",
+    "destinedtraits:exotic_haakons_kedge",
+    "destinedtraits:exotic_strides_of_the_deep",
+    "destinedtraits:exotic_crown_of_flames",
+    "destinedtraits:exotic_hades_arcanum",
+    "destinedtraits:exotic_the_executioner",
+    "destinedtraits:exotic_polaris",
+    "destinedtraits:exotic_the_pylon",
+    "destinedtraits:exotic_moonshot",
+    "destinedtraits:exotic_crimson_divisor",
+    "destinedtraits:exotic_silent_phalanx",
+    "destinedtraits:exotic_electric_head",
+    "destinedtraits:exotic_bunker_in_place",
+    "destinedtraits:exotic_mirewaders",
+    "destinedtraits:exotic_sandwalk_wraps",
+    "destinedtraits:exotic_armadan_repulsors",
+    "destinedtraits:add_perks_sculk",
+    "destinedtraits:add_perks_ocean",
+    "destinedtraits:add_perks_jungle",
+    "destinedtraits:add_perks_desert",
+    "destinedtraits:add_perks_nether",
+    "destinedtraits:add_perks_end",
+    "destinedtraits:add_perks_default"
+  ]
+}

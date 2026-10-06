@@ -1,0 +1,17 @@
+{
+  "type": "destinedtraits:add_perks",
+  "conditions": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "dimension": "minecraft:the_end"
+      }
+    }
+  ],
+  "tier_min": 4,
+  "tier_max": 4,
+  "biome_theme": "end",
+  "origin_trait_armor": "destinedtraits:kinetic_bloom",
+  "origin_trait_weapon": "destinedtraits:shulking_strike",
+  "tier_bonus": 0
+}

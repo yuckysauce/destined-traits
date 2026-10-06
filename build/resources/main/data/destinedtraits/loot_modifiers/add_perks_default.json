@@ -1,0 +1,20 @@
+{
+  "type": "destinedtraits:add_perks",
+  "conditions": [
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "biomes": "minecraft:deep_dark"
+        }
+      }
+    }
+  ],
+  "tier_min": 1,
+  "tier_max": 2,
+  "biome_theme": "default",
+  "origin_trait_weapon": "destinedtraits:field_forged",
+  "origin_trait_armor": "destinedtraits:wild_woven",
+  "tier_bonus": 0
+}

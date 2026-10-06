@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "advancements.get_haakons_kedge.title"
+    },
+    "description": {
+      "translate": "advancements.get_haakons_kedge.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "get_haakons_kedge_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "destinedtraits:abyssal_collection"
+}

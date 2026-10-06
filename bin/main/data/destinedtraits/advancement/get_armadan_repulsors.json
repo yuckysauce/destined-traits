@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:diamond_boots" },
+    "title": { "translate": "advancements.get_armadan_repulsors.title" },
+    "description": { "translate": "advancements.get_armadan_repulsors.descr" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": { "get_armadan_repulsors_0": { "trigger": "minecraft:impossible" } },
+  "parent": "destinedtraits:endfarer_collection"
+}

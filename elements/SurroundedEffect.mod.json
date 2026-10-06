@@ -1,0 +1,25 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Surrounded",
+    "icon": "orb",
+    "color": {
+      "value": -16751002,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": "ATTACK_DAMAGE",
+        "amount": 0.2,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ]
+  }
+}

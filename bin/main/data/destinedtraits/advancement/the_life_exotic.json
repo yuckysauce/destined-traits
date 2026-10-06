@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_nugget"
+    },
+    "title": {
+      "translate": "advancements.the_life_exotic.title"
+    },
+    "description": {
+      "translate": "advancements.the_life_exotic.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "picked_up_exotic": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "destinedtraits:destined_traits_root"
+}

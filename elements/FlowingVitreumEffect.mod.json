@@ -1,0 +1,26 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Hydrostatic Pressure",
+    "icon": "orb",
+    "color": {
+      "value": -16751002,
+      "falpha": 0.0
+    },
+    "onAddedSound": "block.glass.hit",
+    "isInstant": true,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": false,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": "ARMOR_TOUGHNESS",
+        "amount": 0.5,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "onStarted": "FlowingVitreumEffectDamage"
+  }
+}

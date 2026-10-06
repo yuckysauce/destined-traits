@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:packed_ice" },
+    "title": { "translate": "advancements.rimebound_collection.title" },
+    "description": { "translate": "advancements.rimebound_collection.descr" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": { "north_star": { "trigger": "minecraft:impossible" } },
+  "parent": "destinedtraits:the_life_exotic"
+}

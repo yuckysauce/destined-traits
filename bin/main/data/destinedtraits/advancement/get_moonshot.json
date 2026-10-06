@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:crossbow" },
+    "title": { "translate": "advancements.get_moonshot.title" },
+    "description": { "translate": "advancements.get_moonshot.descr" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": { "get_moonshot_0": { "trigger": "minecraft:impossible" } },
+  "parent": "destinedtraits:endfarer_collection"
+}

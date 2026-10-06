@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherrack"
+    },
+    "title": {
+      "translate": "advancements.infernal_collection.title"
+    },
+    "description": {
+      "translate": "advancements.infernal_collection.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+  "hades_arcanum": {
+    "trigger": "minecraft:impossible"
+  },
+  "soulfire_diadem": {
+    "trigger": "minecraft:impossible"
+  },
+  "the_executioner": {
+    "trigger": "minecraft:impossible"
+  }
+  },
+  "parent": "destinedtraits:the_life_exotic"
+}

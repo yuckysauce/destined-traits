@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_axe"
+    },
+    "title": {
+      "translate": "advancements.get_the_executioner.title"
+    },
+    "description": {
+      "translate": "advancements.get_the_executioner.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_the_executioner_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "destinedtraits:infernal_collection"
+}

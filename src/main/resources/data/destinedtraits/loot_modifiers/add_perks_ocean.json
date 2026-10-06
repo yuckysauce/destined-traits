@@ -1,0 +1,17 @@
+{
+  "type": "destinedtraits:add_perks",
+  "conditions": [
+  	{
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biomes": "#minecraft:is_ocean"
+      }
+    }
+    ],
+  "tier_min": 1,
+  "tier_max": 2,
+  "biome_theme": "ocean",
+  "origin_trait_weapon": "destinedtraits:in_the_deep",
+  "origin_trait_armor": "destinedtraits:hydrostatic_pressure",
+  "tier_bonus": 0
+}

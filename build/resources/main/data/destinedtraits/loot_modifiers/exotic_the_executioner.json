@@ -1,0 +1,19 @@
+{
+  "type": "destinedtraits:exotic_injection",
+  "conditions": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "dimension": "minecraft:the_nether"
+      }
+    }
+  ],
+  "base_item": "minecraft:golden_axe",
+  "custom_name": "The Executioner",
+  "perks": {
+  	"origin_trait": "destinedtraits:guillotine_swinging"
+  },
+  "tier_min": 1,
+  "tier_max": 1,
+  "custom_model_data": 42001
+}

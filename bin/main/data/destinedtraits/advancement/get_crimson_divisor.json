@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:iron_axe" },
+    "title": { "translate": "advancements.get_crimson_divisor.title" },
+    "description": { "translate": "advancements.get_crimson_divisor.descr" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": { "get_crimson_divisor_0": { "trigger": "minecraft:impossible" } },
+  "parent": "destinedtraits:skyscraper_collection"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "destinedtraits:add_perks",
+  "conditions": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biomes": "#c:is_mountain"
+      }
+    }
+  ],
+  "tier_min": 1,
+  "tier_max": 2,
+  "biome_theme": "mountain",
+  "origin_trait_weapon": "destinedtraits:mountain_weapon",
+  "origin_trait_armor": "destinedtraits:mountain_armor",
+  "tier_bonus": 0
+}

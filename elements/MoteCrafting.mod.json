@@ -1,0 +1,29 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "Items.AMETHYST_SHARD",
+      "Items.ECHO_SHARD",
+      "Items.AMETHYST_SHARD",
+      "Items.ECHO_SHARD",
+      "Items.ENDER_EYE",
+      "Items.ECHO_SHARD",
+      "Items.AMETHYST_SHARD",
+      "Items.ECHO_SHARD",
+      "Items.AMETHYST_SHARD"
+    ],
+    "recipeReturnStack": "CUSTOM:ParacausalMote",
+    "name": "paracausal_mote",
+    "namespace": "mod"
+  }
+}

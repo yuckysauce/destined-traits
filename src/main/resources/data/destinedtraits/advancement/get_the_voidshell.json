@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
+    },
+    "title": {
+      "translate": "advancements.get_the_voidshell.title"
+    },
+    "description": {
+      "translate": "advancements.get_the_voidshell.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_the_voidshell_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "destinedtraits:endfarer_collection"
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "translate": "advancements.get_hades_arcanum.title"
+    },
+    "description": {
+      "translate": "advancements.get_hades_arcanum.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_hades_arcanum_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "destinedtraits:infernal_collection"
+}

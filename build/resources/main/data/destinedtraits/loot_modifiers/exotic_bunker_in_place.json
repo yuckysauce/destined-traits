@@ -1,0 +1,27 @@
+{
+  "type": "destinedtraits:exotic_injection",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": { "biomes": "#c:is_desert" }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "predicate": { "biomes": "#minecraft:is_badlands" }
+        }
+      ]
+    }
+  ],
+  "loot_table": "minecraft:chests/desert_pyramid",
+  "chance": 0.05,
+  "base_item": "minecraft:golden_chestplate",
+  "custom_name": "Bunker In Place",
+  "perks": {
+    "origin_trait": "destinedtraits:fire_when_ready"
+  },
+  "tier_min": 1,
+  "tier_max": 1
+}

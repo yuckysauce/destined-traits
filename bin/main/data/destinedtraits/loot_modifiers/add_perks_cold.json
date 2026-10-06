@@ -1,0 +1,17 @@
+{
+  "type": "destinedtraits:add_perks",
+  "conditions": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biomes": "#c:is_snowy" 
+      }
+    }
+  ],
+  "tier_min": 1,
+  "tier_max": 2,
+  "biome_theme": "cold",
+  "origin_trait_weapon": "destinedtraits:cryoclasm", 
+  "origin_trait_armor": "destinedtraits:shatterdive", 
+  "tier_bonus": 0
+}

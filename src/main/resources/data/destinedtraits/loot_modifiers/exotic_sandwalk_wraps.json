@@ -1,0 +1,25 @@
+{
+  "type": "destinedtraits:exotic_injection",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": { "biomes": "#c:is_desert" }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "predicate": { "biomes": "#minecraft:is_badlands" }
+        }
+      ]
+    }
+  ],
+  "base_item": "minecraft:leather_boots",
+  "custom_name": "Sandwalk Wraps",
+  "perks": {
+    "origin_trait": "destinedtraits:walk_without_rhythm"
+  },
+  "tier_min": 1,
+  "tier_max": 1
+}

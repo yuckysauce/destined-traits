@@ -1,0 +1,2910 @@
+{
+  "mod_elements": [
+    {
+      "name": "PerkLootModifier",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "perk_loot_modifier",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/PerkLootModifier.java"
+        ]
+      }
+    },
+    {
+      "name": "PerkTooltipHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "perk_tooltip_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/PerkTooltipHandler.java"
+        ]
+      }
+    },
+    {
+      "name": "Rampage",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rampage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/RampageProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column"
+    },
+    {
+      "name": "Test",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/loot_table/chests/test.json"
+        ]
+      }
+    },
+    {
+      "name": "SwordsTest",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swords_test",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/loot_table/chests/swords_test.json"
+        ]
+      }
+    },
+    {
+      "name": "RapidHitEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rapid_hit_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/RapidHitEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column/Effects"
+    },
+    {
+      "name": "RampageEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rampage_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/RampageEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column/Effects"
+    },
+    {
+      "name": "RapidHit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rapid_hit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "isvanillacritical",
+            "type": "logic"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/RapidHitProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column"
+    },
+    {
+      "name": "Subsistence",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "subsistence",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/SubsistenceProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column"
+    },
+    {
+      "name": "AttritionOrbs",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "attrition_orbs",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/AttritionOrbsProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column"
+    },
+    {
+      "name": "Unrelenting",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "unrelenting",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/UnrelentingProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column"
+    },
+    {
+      "name": "Timers",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "timers",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/TimersProcedure.java"
+        ]
+      },
+      "path": "~/Perks"
+    },
+    {
+      "name": "WitheringTouch",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "withering_touch",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/WitheringTouchProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column"
+    },
+    {
+      "name": "PulseMonitorEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pulse_monitor_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/PulseMonitorEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column/Effects"
+    },
+    {
+      "name": "PulseMonitor",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pulse_monitor",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/PulseMonitorProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column"
+    },
+    {
+      "name": "Recuperation",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "recuperation",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/RecuperationProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Left column"
+    },
+    {
+      "name": "BetterAlready",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "better_already",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/BetterAlreadyProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Left column"
+    },
+    {
+      "name": "BreatheEasy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "breathe_easy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/BreatheEasyProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Left column"
+    },
+    {
+      "name": "Reaper",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "reaper",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/ReaperProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Right column"
+    },
+    {
+      "name": "ReaperEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "reaper_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/ReaperEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Right column/Effect"
+    },
+    {
+      "name": "ReaperSpawnorb",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "reaper_spawnorb",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/ReaperSpawnorbProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Right column/Effect"
+    },
+    {
+      "name": "RapidHitAlternate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rapid_hit_alternate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/RapidHitAlternateProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column/Effects"
+    },
+    {
+      "name": "DestinedTraits",
+      "type": "config",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "destined_traits",
+      "metadata": {
+        "files": [
+          "src/main/java/com/doctorfuture/destinedtraits/configuration/DestinedTraitsConfiguration.java"
+        ]
+      }
+    },
+    {
+      "name": "TheLifeExotic",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "the_life_exotic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/advancement/the_life_exotic.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "PerkApplicationHelper",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "perk_application_helper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/PerkApplicationHelper.java"
+        ]
+      }
+    },
+    {
+      "name": "MobEquipmentPerkEvent",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mob_equipment_perk_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/MobEquipmentPerkEvent.java"
+        ]
+      }
+    },
+    {
+      "name": "UnderPressure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "under_pressure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/UnderPressureProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column"
+    },
+    {
+      "name": "UnderPressureEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "under_pressure_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/UnderPressureEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column/Effects"
+    },
+    {
+      "name": "FieldPrep",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "field_prep",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/FieldPrepProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column"
+    },
+    {
+      "name": "FieldPrepEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "field_prep_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/FieldPrepEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column/Effects"
+    },
+    {
+      "name": "LooseChange",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "loose_change",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/LooseChangeProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column"
+    },
+    {
+      "name": "LooseChangeEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "loose_change_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/LooseChangeEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column/Effects"
+    },
+    {
+      "name": "Quickdraw",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "quickdraw",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "equipmentslot",
+            "type": "number"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/QuickdrawProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column"
+    },
+    {
+      "name": "Utilitarian",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "utilitarian",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/UtilitarianProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column"
+    },
+    {
+      "name": "Demolitionist",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "demolitionist",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/DemolitionistProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column"
+    },
+    {
+      "name": "Adagio",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "adagio",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/AdagioProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column"
+    },
+    {
+      "name": "AdagioEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "adagio_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/AdagioEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column/Effects"
+    },
+    {
+      "name": "AdrenalineJunkie",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "adrenaline_junkie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/AdrenalineJunkieProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column"
+    },
+    {
+      "name": "AdrenalineJunkieEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "adrenaline_junkie_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/AdrenalineJunkieEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column/Effects"
+    },
+    {
+      "name": "ModdedTest",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "modded_test",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/loot_table/modded_test.json"
+        ]
+      }
+    },
+    {
+      "name": "Inspect",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inspect",
+      "metadata": {
+        "files": [
+          "src/main/java/com/doctorfuture/destinedtraits/network/InspectMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Surrounded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "surrounded",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/SurroundedProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column"
+    },
+    {
+      "name": "SurroundedEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "surrounded_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/SurroundedEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column/Effects"
+    },
+    {
+      "name": "EagerEdge",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "eager_edge",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "equipmentslot",
+            "type": "number"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/EagerEdgeProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column"
+    },
+    {
+      "name": "EagerEdgeEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "eager_edge_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/EagerEdgeEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column/Effects"
+    },
+    {
+      "name": "EagerEdgeLunge",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "eager_edge_lunge",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/EagerEdgeLungeProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column/Effects"
+    },
+    {
+      "name": "Tear",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tear",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/TearProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column"
+    },
+    {
+      "name": "WasCritCheck",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "was_crit_check",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "isvanillacritical",
+            "type": "logic"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/WasCritCheckProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column"
+    },
+    {
+      "name": "Dragonfly",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dragonfly",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/DragonflyProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column"
+    },
+    {
+      "name": "RepulsorBrace",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "repulsor_brace",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/RepulsorBraceProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column"
+    },
+    {
+      "name": "Cauterize",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cauterize",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/CauterizeProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column"
+    },
+    {
+      "name": "KillingWind",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "killing_wind",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/KillingWindProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column"
+    },
+    {
+      "name": "KillingWindEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "killing_wind_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/KillingWindEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column/Effects"
+    },
+    {
+      "name": "TargetLock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "target_lock",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/TargetLockProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column"
+    },
+    {
+      "name": "TargetLockEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "target_lock_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/TargetLockEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column/Effects"
+    },
+    {
+      "name": "HighGround",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "high_ground",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/HighGroundProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column"
+    },
+    {
+      "name": "PrecisionInstrumentEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "precision_instrument_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/PrecisionInstrumentEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column/Effects"
+    },
+    {
+      "name": "PrecisionInstrument",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "precision_instrument",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/PrecisionInstrumentProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column"
+    },
+    {
+      "name": "InCombatCheck",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "in_combat_check",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/doctorfuture/destinedtraits/procedures/InCombatCheckProcedure.java"
+        ]
+      },
+      "path": "~/Perks"
+    },
+    {
+      "name": "InCombatCheckDamage",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "in_combat_check_damage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/doctorfuture/destinedtraits/procedures/InCombatCheckDamageProcedure.java"
+        ]
+      },
+      "path": "~/Perks"
+    },
+    {
+      "name": "Frenzy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "frenzy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/FrenzyProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column"
+    },
+    {
+      "name": "FrenzyEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "frenzy_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/FrenzyEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column/Effects"
+    },
+    {
+      "name": "PerfectFloat",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "perfect_float",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/PerfectFloatProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column"
+    },
+    {
+      "name": "PerfectFloatEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "perfect_float_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/PerfectFloatEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column/Effects"
+    },
+    {
+      "name": "UnderOver",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "under_over",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/UnderOverProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column"
+    },
+    {
+      "name": "FiringLine",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "firing_line",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "isvanillacritical",
+            "type": "logic"
+          },
+          {
+            "name": "damagemodifier",
+            "type": "number"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/FiringLineProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column"
+    },
+    {
+      "name": "Harmony",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "harmony",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/HarmonyProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column"
+    },
+    {
+      "name": "HarmonyEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "harmony_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/HarmonyEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column/Effects"
+    },
+    {
+      "name": "HarmonyEffectGiver",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "harmony_effect_giver",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "equipmentslot",
+            "type": "number"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/HarmonyEffectGiverProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column/Effects"
+    },
+    {
+      "name": "FieldForged",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "field_forged",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/FieldForgedProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Origin"
+    },
+    {
+      "name": "HydrostaticPressure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hydrostatic_pressure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/HydrostaticPressureProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Origin"
+    },
+    {
+      "name": "HydrostaticPressureEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hydrostatic_pressure_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/HydrostaticPressureEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Origin/Effects"
+    },
+    {
+      "name": "InTheDeep",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "in_the_deep",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/InTheDeepProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Origin"
+    },
+    {
+      "name": "InTheDeepEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "in_the_deep_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/InTheDeepEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Origin/Effects"
+    },
+    {
+      "name": "GlassThem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "glass_them",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/GlassThemProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Origin"
+    },
+    {
+      "name": "FlowingVitreum",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "flowing_vitreum",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/FlowingVitreumProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Origin"
+    },
+    {
+      "name": "FlowingVitreumEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "flowing_vitreum_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/FlowingVitreumEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Origin/Effects"
+    },
+    {
+      "name": "Glass",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/damage_type/glass.json"
+        ]
+      },
+      "path": "~/Perks/Armor/Origin/Effects"
+    },
+    {
+      "name": "FlowingVitreumEffectDamage",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "flowing_vitreum_effect_damage",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amplifier",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/FlowingVitreumEffectDamageProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Origin/Effects"
+    },
+    {
+      "name": "Ensemble",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ensemble",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/EnsembleProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column"
+    },
+    {
+      "name": "EnsembleEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ensemble_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/EnsembleEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column/Effects"
+    },
+    {
+      "name": "PerpetualMotion",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "perpetual_motion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/PerpetualMotionProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Left column"
+    },
+    {
+      "name": "PerkIconRegistry",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "perk_icon_registry",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/PerkIconRegistry.java"
+        ]
+      }
+    },
+    {
+      "name": "ExplosiveHead",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "explosive_head",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "damagesource",
+            "type": "damagesource"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/ExplosiveHeadProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column"
+    },
+    {
+      "name": "OddItems",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "odd_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/loot_table/odd_items.json"
+        ]
+      }
+    },
+    {
+      "name": "MobSpawnPerkHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mob_spawn_perk_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/MobSpawnPerkHandler.java"
+        ]
+      }
+    },
+    {
+      "name": "CraftingPerkHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "crafting_perk_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/CraftingPerkHandler.java"
+        ]
+      }
+    },
+    {
+      "name": "ParacausalMote",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paracausal_mote",
+      "metadata": {
+        "files": [
+          "src/main/java/com/doctorfuture/destinedtraits/item/ParacausalMoteItem.java",
+          "src/main/resources/assets/destinedtraits/models/item/paracausal_mote.json"
+        ]
+      }
+    },
+    {
+      "name": "AnvilPerkUpgradeHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "anvil_perk_upgrade_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/AnvilPerkUpgradeHandler.java"
+        ]
+      }
+    },
+    {
+      "name": "BankThoseMotes",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bank_those_motes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/advancement/bank_those_motes.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "MoteCrafting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mote_crafting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/recipe/paracausal_mote.json"
+        ]
+      }
+    },
+    {
+      "name": "BuiltDifferent",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "built_different",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/BuiltDifferentProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Right column"
+    },
+    {
+      "name": "ArgentOrdnance",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "argent_ordnance",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/ArgentOrdnanceProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Right column"
+    },
+    {
+      "name": "ArgentOrdnanceEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "argent_ordnance_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/ArgentOrdnanceEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Right column/Effect"
+    },
+    {
+      "name": "LucentBladesEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lucent_blades_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/LucentBladesEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Right column/Effect"
+    },
+    {
+      "name": "LucentBlades",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lucent_blades",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/LucentBladesProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Right column"
+    },
+    {
+      "name": "LucentBladesActiveEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lucent_blades_active_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/LucentBladesActiveEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Right column/Effect"
+    },
+    {
+      "name": "SolarRunnerEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "solar_runner_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/SolarRunnerEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Left column/Effects"
+    },
+    {
+      "name": "SolarRunner",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "solar_runner",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/SolarRunnerProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Left column"
+    },
+    {
+      "name": "BackdraftEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "backdraft_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/BackdraftEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Right column/Effect"
+    },
+    {
+      "name": "Backdraft",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "backdraft",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/BackdraftProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Right column"
+    },
+    {
+      "name": "MagmaSkin",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "magma_skin",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/MagmaSkinProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Origin"
+    },
+    {
+      "name": "Infernality",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "infernality",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "amount",
+            "type": "number"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/InfernalityProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Origin"
+    },
+    {
+      "name": "SporeSwarmEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spore_swarm_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/SporeSwarmEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Origin/Effects"
+    },
+    {
+      "name": "SporeSwarm",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spore_swarm",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/SporeSwarmProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Origin"
+    },
+    {
+      "name": "SporeSwarmEffectOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spore_swarm_effect_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/SporeSwarmEffectOnEffectActiveTickProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Origin/Effects"
+    },
+    {
+      "name": "SharedSaturation",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shared_saturation",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/SharedSaturationProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Origin"
+    },
+    {
+      "name": "SoulOfTheAncients",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "soul_of_the_ancients",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/SoulOfTheAncientsProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Exotic"
+    },
+    {
+      "name": "DestinedTraitsRoot",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "destined_traits_root",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/advancement/destined_traits_root.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "GetWardenOfEternities",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "get_warden_of_eternities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/advancement/get_warden_of_eternities.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Photosynthetic",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "photosynthetic",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/PhotosyntheticProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Exotic"
+    },
+    {
+      "name": "GuillotineSwinging",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "guillotine_swinging",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/GuillotineSwingingProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Exotic"
+    },
+    {
+      "name": "GuillotineSwingingEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "guillotine_swinging_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/GuillotineSwingingEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Exotic/Effects"
+    },
+    {
+      "name": "ForsakenRite",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "forsaken_rite",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/ForsakenRiteProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Exotic"
+    },
+    {
+      "name": "ForsakenRiteEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "forsaken_rite_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/ForsakenRiteEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Exotic/Effects"
+    },
+    {
+      "name": "ForsakenRiteDebuff",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "forsaken_rite_debuff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/ForsakenRiteDebuffMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Exotic/Effects"
+    },
+    {
+      "name": "GetCycadianArbor",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "get_cycadian_arbor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/advancement/get_cycadian_arbor.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "GetHadesArcanum",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "get_hades_arcanum",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/advancement/get_hades_arcanum.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "GetTheExecutioner",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "get_the_executioner",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/advancement/get_the_executioner.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "KineticBloom",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kinetic_bloom",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/KineticBloomProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Origin"
+    },
+    {
+      "name": "KineticBloomEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "kinetic_bloom_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/KineticBloomEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Origin/Effects"
+    },
+    {
+      "name": "ShulkingStrike",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "shulking_strike",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/ShulkingStrikeProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Origin"
+    },
+    {
+      "name": "EnderArtillery",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ender_artillery",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/procedures/EnderArtilleryProcedure.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Exotic"
+    },
+    {
+      "name": "EnderArtilleryEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ender_artillery_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/EnderArtilleryEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Armor/Exotic/Effect"
+    },
+    {
+      "name": "GetTheVoidshell",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "get_the_voidshell",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/advancement/get_the_voidshell.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "GetStridesOfTheDeep",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "get_strides_of_the_deep",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/advancement/get_strides_of_the_deep.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "InfernalCollection",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "infernal_collection",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/advancement/infernal_collection.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "GetSoulfireDiadem",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "get_soulfire_diadem",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/advancement/get_soulfire_diadem.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "TreasureHunter",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "treasure_hunter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/advancement/treasure_hunter.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Completionist",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "completionist",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/advancement/completionist.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "GetHaakonsKedge",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "get_haakons_kedge",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/advancement/get_haakons_kedge.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "NowhereFastEffect",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "nowhere_fast_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/destinedtraits/potion/NowhereFastEffectMobEffect.java"
+        ]
+      },
+      "path": "~/Perks/Weapons/Exotic/Effects"
+    },
+    {
+      "name": "Enhance",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "enhance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/advancement/enhance.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "MoreVaultSpace",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "more_vault_space",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/advancement/more_vault_space.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "PathfinderCollection",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "pathfinder_collection",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/advancement/pathfinder_collection.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "GetAlchemyCarve",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "get_alchemy_carve",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/advancement/get_alchemy_carve.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "EndfarerCollection",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "endfarer_collection",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/advancement/endfarer_collection.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "AbyssalCollection",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "abyssal_collection",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/advancement/abyssal_collection.json"
+        ]
+      },
+      "path": "~/Advancements"
+    },
+    {
+      "name": "MasterfulWork",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "masterful_work",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/destinedtraits/advancement/masterful_work.json"
+        ]
+      },
+      "path": "~/Advancements"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "recuperation_progress",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "betteralready_progress",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "breatheeasy_progress",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "eageredge_timer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "last_hit_uuid",
+      "type": "string",
+      "scope": "player_lifetime",
+      "value": ""
+    },
+    {
+      "name": "in_combat",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "in_combat_timer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "in_combat_bool",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "harmony_ready",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "fieldforged_timer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "fieldforged_progress",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "rapidkill_timer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "rapidkill_progress",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "perpetualmotion_timer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "argent_ordnance_progress",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "lucent_blades_progress",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "rapidhit_timer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "rapidhit_progress",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "enderartillery_progress",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "enderartillery_timer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "effect.destinedtraits.rampage_effect": "Rampage",
+      "effect.destinedtraits.rapid_hit_effect": "Rapid Hit",
+      "effect.destinedtraits.pulse_monitor_effect": "Pulse Monitor",
+      "effect.destinedtraits.reaper_effect": "Reaper",
+      "destinedtraits.configuration.exotic_drop_rate": "Exotic Drop Rate",
+      "advancements.the_life_exotic.title": "The Life Exotic",
+      "advancements.the_life_exotic.descr": "Obtain any Exotic item.",
+      "effect.destinedtraits.under_pressure_effect": "Under Pressure",
+      "effect.destinedtraits.field_prep_effect": "Field Prep",
+      "effect.destinedtraits.loose_change_effect": "Loose Change",
+      "effect.destinedtraits.adagio_effect": "Adagio",
+      "effect.destinedtraits.adrenaline_junkie_effect": "Adrenaline Junkie",
+      "key.destinedtraits.inspect": "Inspect",
+      "tooltip.destinedtraits.inspect_prompt": "Press %s to inspect",
+      "perk.destinedtraits.rampage.desc": "Kills with this weapon grant a stacking damage bonus.",
+      "perk.destinedtraits.rapid_hit.desc": "Critical hits with this weapon grant a stacking bonus to\\nattack speed.",
+      "perk.destinedtraits.pulse_monitor.desc": "This weapon grants knockback resistance as your health\\ngets lower.",
+      "perk.destinedtraits.subsistence.desc": "Kills with this weapon restore durability.",
+      "perk.destinedtraits.field_prep.desc": "Move faster and gain a bonus to attack reach while sneaking.",
+      "perk.destinedtraits.utilitarian.desc": "Using an item while holding this weapon restores durability.",
+      "perk.destinedtraits.demolitionist.desc": "Causing an explosion while holding this weapon restore\\ndurability.",
+      "perk.destinedtraits.attrition_orbs.desc": "Dealing damage with this weapon has a chance to spawn\\nexperience orbs.",
+      "perk.destinedtraits.loose_change.desc": "Damaging an enemy under the effect of a potion grants a\\nbonus to attack speed.",
+      "perk.destinedtraits.quickdraw.desc": "This weapon is readied instantly.",
+      "perk.destinedtraits.under_pressure.desc": "This weapon deals more damage as your health gets lower.",
+      "perk.destinedtraits.unrelenting.desc": "Rapid kills with this weapon regenerate health.",
+      "perk.destinedtraits.adrenaline_junkie.desc": "Dealing damage with an explosion grants a stacking damage buff.",
+      "perk.destinedtraits.withering_touch.desc": "Dealing damage with this weapon has a chance to apply\\nwither to your target.",
+      "perk.destinedtraits.adagio.desc": "Kills with this weapon reduce your attack speed in exchange\\nfor greater damage.",
+      "perk.destinedtraits.wild_woven.desc": "Dealing damage, collecting experience, and using items\\ngrants a stacking bonus to weapon reach and knockback.",
+      "perk.destinedtraits.sifting_echo.desc": "While invisible, hostile mobs detect you from only 7% of their normal range.\\nCritical hits deal 25% more damage per two Sifting Echo armor pieces.\\nDealing damage while invisible breaks invisibility and blocks it until combat timer and progress both reach 0.\\nStanding up to 4 blocks beyond a hostile mob\u0027s effective detection range restores 1 hunger every 10 seconds.\\nAdditional Sifting Echo armor restores hunger faster.",
+      "perk.destinedtraits.field_forged.desc": "Rapid kills with this weapon restore hunger.",
+      "perks.destinedtraits.hydrostatic_pressure.desc": "Gain armor toughness as your air depletes.",
+      "perks.destinedtraits.in_the_deep.desc": "Gain increased weapon reach while you are underwater.",
+      "perk.destinedtraits.hydrostatic_pressure.desc": "Gain armor toughness as your air depletes.",
+      "perk.destinedtraits.in_the_deep.desc": "Gain increased weapon reach while you are underwater.",
+      "perk.destinedtraits.flowing_vitreum.desc": "Your explosions leave behind scalding glass that damages mobs.",
+      "perk.destinedtraits.glass_them.desc": "Rapid kills with this weapon create a scalding glass explosion.",
+      "effect.destinedtraits.surrounded_effect": "Surrounded",
+      "effect.destinedtraits.eager_edge_effect": "Eager Edge",
+      "perk.destinedtraits.eager_edge.desc": "After switching to this weapon, attack to lunge forward.",
+      "perk.destinedtraits.surrounded.desc": "This weapon deals bonus damage while surrounded by mobs.",
+      "perk.destinedtraits.dragonfly.desc": "Critical hit kills with this weapon create an explosion.",
+      "perk.destinedtraits.creeping_tendrils.desc": "Critical hit kills grant invisibility and emit a sculk shriek from the corpse, darkening nearby mobs and clearing their targets.",
+      "perk.destinedtraits.north_star.desc": "Hold use to charge a downward slam. Releasing sends a cleaving blast that damages and freezes nearby enemies. Efficiency speeds up the charge.",
+      "perk.destinedtraits.north_star.name": "North Star",
+      "perk.destinedtraits.superconductor.desc": "Hold a fully drawn bow for several seconds to call lightning down at the arrow\u0027s impact. The strike has a 10-second cooldown.",
+      "perk.destinedtraits.superconductor.name": "Superconductor",
+      "perk.destinedtraits.clean_landing.desc": "Fires an Ender Pearl instead of the center projectile. On landing, it launches nearby mobs and deals light damage. Also affects Warden of Eternities.",
+      "perk.destinedtraits.clean_landing.name": "Clean Landing",
+      "perk.destinedtraits.redstone_battery.desc": "The battery recharges while idle, faster near powerful redstone. Attacks drain it; a fuller battery increases attack speed and critical damage. Hold use to overclock, draining it faster for greater power.",
+      "perk.destinedtraits.redstone_battery.name": "Redstone Battery",
+      "perk.destinedtraits.unwelcome.desc": "Collect XP while carrying this shield, then attack while blocking to blast nearby mobs with sand, knock them back, and slow them.",
+      "perk.destinedtraits.unwelcome.name": "Unwelcome",
+      "perk.destinedtraits.the_agony.desc": "Taking melee damage can shock the attacker and chain to nearby enemies. Redstone power strengthens the pulse; shocking five or more enemies restores health.",
+      "perk.destinedtraits.the_agony.name": "The Agony",
+      "perk.destinedtraits.fire_when_ready.desc": "Greatly reduces explosion damage and restores some hunger when you survive an explosion.",
+      "perk.destinedtraits.fire_when_ready.name": "Fire When Ready",
+      "perk.destinedtraits.healing_salve.desc": "Once off cooldown, lethal damage converts your hunger into temporary absorption hearts over a few ticks. Death resets the cooldown.",
+      "perk.destinedtraits.healing_salve.name": "Healing Salve",
+      "perk.destinedtraits.walk_without_rhythm.desc": "Time spent in combat gradually raises the chance to unleash a sand vortex that launches nearby mobs high into the air.",
+      "perk.destinedtraits.walk_without_rhythm.name": "Walk Without Rhythm",
+      "perk.destinedtraits.second_chance.desc": "A dangerous fall or fall into the void triggers brief levitation, giving you a chance to recover midair.",
+      "perk.destinedtraits.second_chance.name": "Second Chance",
+      "perk.destinedtraits.tear.desc": "Critical hit kills with this weapon spread weakness to nearby mobs.",
+      "perk.destinedtraits.cauterize.desc": "Regain health when you kill a mob that is on fire with this weapon.",
+      "perk.destinedtraits.killing_wind.desc": "Kills with this weapon grant a brief bonus to movement speed.",
+      "effect.destinedtraits.killing_wind_effect": "Killing Wind",
+      "effect.destinedtraits.target_lock_effect": "Target Lock",
+      "perk.destinedtraits.target_lock.desc": "Dealing damage to the same enemy slowly increases your damage.",
+      "perk.destinedtraits.high_ground.desc": "This weapon deals increased damage to mobs below you.",
+      "perk.destinedtraits.precision_instrument.desc": "Consecutive critical hits with this weapon grant bonus damage.",
+      "effect.destinedtraits.precision_instrument_effect": "Precision Instrument",
+      "effect.destinedtraits.frenzy_effect": "Frenzy",
+      "effect.destinedtraits.perfect_float_effect": "Perfect Float",
+      "perk.destinedtraits.perfect_float.desc": "Being in combat for an extended period of time increases\\nknockback resistance until you are out of combat.",
+      "perk.destinedtraits.frenzy.desc": "Being in combat for an extended period of time increases\\ndamage until you are out of combat.",
+      "perk.destinedtraits.under_over.desc": "This weapon deals more damage to mobs with armor.",
+      "perk.destinedtraits.firing_line.desc": "Being near other players increases the damage of this\\nweapon\u0027s critical hits.",
+      "effect.destinedtraits.harmony_effect": "Harmony",
+      "perk.destinedtraits.harmony.desc": "Kills with other weapons improve this weapon’s damage\\nfor a short duration.",
+      "effect.destinedtraits.hydrostatic_pressure_effect": "Hydrostatic Pressure",
+      "effect.destinedtraits.in_the_deep_effect": "In The Deep",
+      "effect.destinedtraits.flowing_vitreum_effect": "Hydrostatic Pressure",
+      "death.attack.glass": "%1$s cut themselves on glass.",
+      "death.attack.glass.item": "%1$s was cut by glass by %2$s using %3$s",
+      "death.attack.glass.player": "%1$s cut themselves on glass trying to escape %2$s",
+      "effect.destinedtraits.ensemble_effect": "Rapid Hit",
+      "perk.destinedtraits.ensemble.desc": "Being near other players increases this weapon\u0027s attack speed.",
+      "item.destinedtraits.paracausal_mote": "Paracausal Mote",
+      "destinedtraits.configuration.tier_upgrade_cost": "Tier Upgrade Cost",
+      "advancements.bank_those_motes.title": "Bank Those Motes!",
+      "advancements.bank_those_motes.descr": "Increase an item\u0027s tier at an anvil.",
+      "perk.destinedtraits.built_different.desc": "Whenever this weapon loses durability, it has a chance to\\nrestore health or hunger instead.",
+      "effect.destinedtraits.argent_ordnance_effect": "Argent Ordnance",
+      "effect.destinedtraits.lucent_blades_effect": "Lucent Blades",
+      "effect.destinedtraits.lucent_blades_active_effect": "Lucent Blades",
+      "effect.destinedtraits.solar_runner_effect": "Solar Runner",
+      "effect.destinedtraits.backdraft_effect": "Backdraft",
+      "effect.destinedtraits.spore_swarm_effect": "Pulse Monitor",
+      "advancements.destined_traits_root.title": "Destined Traits",
+      "advancements.destined_traits_root.descr": "Become legend.",
+      "advancements.get_warden_of_eternities.descr": "Discover the Warden of Eternities.",
+      "advancements.get_warden_of_eternities.title": "Ancient Power, Reclaimed",
+      "effect.destinedtraits.guillotine_swinging_effect": "Guillotine Swinging",
+      "effect.destinedtraits.forsaken_rite_effect": "Forsaken Rite",
+      "effect.destinedtraits.forsaken_rite_debuff": "Forsaken Rite",
+      "perk.destinedtraits.forsaken_rite.desc": "Arrows from this weapon create soul ritual circles on the ground\\nthat buff allies and debuff mobs. Collecting XP while\\ninside the circle increases its duration and radius",
+      "perk.destinedtraits.soul_of_the_ancients.desc": "This weapon launches a devastating sonic boom.",
+      "perk.destinedtraits.guillotine_swinging.desc": "Kills with this weapon ready a brutish dash that always critically hits.",
+      "perk.destinedtraits.photosynthetic.desc": "Blocking damage with this shield deals a minor amount of\\ndamage and releases spores on contact.",
+      "perk.destinedtraits.better_already.desc": "Collect experience to build progress toward restoring hunger.\\nAdditional pieces and enhanced armor improve its effect. (AI)",
+      "perk.destinedtraits.recuperation.desc": "Collect experience to build progress toward restoring health.\\nAdditional pieces and enhanced armor improve its effect. (AI)",
+      "perk.destinedtraits.breathe_easy.desc": "Collect experience to restore your air supply.\\nAdditional pieces and enhanced armor improve its effect. (AI)",
+      "perk.destinedtraits.argent_ordnance.desc": "Collect experience to build explosive power.\\nYour next explosion consumes the charge for bonus damage. (AI)",
+      "perk.destinedtraits.lucent_blades.desc": "Collect experience to build Lucent Blades stacks.\\nMelee hits consume a stack to grant attack speed. (AI)",
+      "perk.destinedtraits.reaper.desc": "Gain Reaper stacks from equipped armor.\\nDefeated mobs can release experience orbs while this effect is active. (AI)",
+      "perk.destinedtraits.solar_runner.desc": "Gain movement speed while you are burning.\\nEnhanced armor increases the speed bonus. (AI)",
+      "perk.destinedtraits.backdraft.desc": "Gain armor toughness while burning enemies are nearby.\\nEnhanced armor increases the toughness bonus. (AI)",
+      "perk.destinedtraits.perpetual_motion.desc": "Moving with this weapon builds handling and stability bonuses.\\nKeep moving to strengthen them and slowly repair the weapon. (AI)",
+      "perk.destinedtraits.envious_arsenal.desc": "Kills with another weapon restore this weapon's durability.\\nEnhanced perks restore more durability. (AI)",
+      "perk.destinedtraits.rising_deep.desc": "Gain increased attack reach while underwater.\\nEnhanced perks grant an even greater reach bonus. (AI)",
+      "perk.destinedtraits.repulsor_brace.desc": "Defeating an enemy with active effects grants absorption.\\nEnhanced perks strengthen the protection. (AI)",
+      "perk.destinedtraits.explosive_head.desc": "Arrows fired from this weapon explode on impact. (AI)",
+      "perk.destinedtraits.bait_and_switch.desc": "Damage enemies with three different weapons in quick succession,\\nincluding this one, to gain a temporary damage bonus. (AI)",
+      "perk.destinedtraits.one_for_all.desc": "Damage three different enemies in quick succession to gain\\na temporary damage bonus. (AI)",
+      "perk.destinedtraits.the_old_wounds.desc": "Damage enemies to record their active effects, then spend\\nexperience to brew a potion containing those effects. (AI)",
+      "perk.destinedtraits.soulfire_eminence.desc": "Eating food summons a soul wisp that attacks nearby hostiles.\\nMore nourishing food sustains the wisp for longer. (AI)",
+      "perk.destinedtraits.nowhere_fast.desc": "Thrown tridents rise before plunging toward their target.\\nGreater falls deal more impact damage and splash nearby foes. (AI)",
+      "perk.destinedtraits.tidal_pulse.desc": "Sprint to charge, then crouch to surge forward and displace\\nnearby mobs and items. (AI)",
+      "perk.destinedtraits.ender_artillery.desc": "Build a charge by damaging enemies, then unleash homing\\nShulker bullets with further hits. (AI)",
+      "advancements.get_cycadian_arbor.title": "Rampant Growth, Tamed",
+      "advancements.get_cycadian_arbor.descr": "Discover the Cycadian Arbor.",
+      "advancements.get_hades_arcanum.title": "Forbidden Ritual, Awakened",
+      "advancements.get_hades_arcanum.descr": "Discover the Hades Arcanum.",
+      "advancements.get_the_executioner.descr": "Discover The Executioner.",
+      "advancements.get_the_executioner.title": "Brutish Rage, Channeled",
+      "effect.destinedtraits.kinetic_bloom_effect": "Kinetic Bloom",
+      "destinedtraits.configuration.xp_perk_requirement": "XP Perk Requirement",
+      "masterwork.stat.strength": "Strength",
+      "masterwork.stat.range": "Range",
+      "masterwork.stat.duration": "Duration",
+      "masterwork.stat.efficiency": "Efficiency",
+      "masterwork.destinedtraits.pair": "Masterwork: %1$s %2$s / %3$s %4$s",
+      "masterwork.destinedtraits.title": "Masterwork",
+      "masterwork.destinedtraits.stat_line": "%1$s %2$s (%3$s total)",
+      "effect.destinedtraits.magma_skin_masterwork_effect": "Magma Skin",
+      "effect.destinedtraits.repulsor_brace_masterwork_effect": "Repulsor Brace",
+      "effect.destinedtraits.ender_artillery_effect": "Ender Artillery",
+      "advancements.get_the_voidshell.descr": "Discover The Voidshell.",
+      "advancements.get_the_voidshell.title": "Voidborn Carapace, Unleashed",
+      "advancements.get_strides_of_the_deep.title": "Sunken Agility, Dredged",
+      "advancements.get_strides_of_the_deep.descr": "Discover the Strides of the Deep.",
+      "advancements.infernal_collection.title": "Infernal Collection",
+      "advancements.infernal_collection.descr": "Discover all Nether exotics.",
+      "advancements.get_soulfire_diadem.descr": "Discover the Soulfire Diadem.",
+      "advancements.get_soulfire_diadem.title": "Burning Heart, Rekindled",
+      "advancements.treasure_hunter.title": "Treasure Hunter",
+      "advancements.treasure_hunter.descr": "Discover all secret exotics.",
+      "advancements.completionist.descr": "Discover all Destined Traits exotics.",
+      "advancements.completionist.title": "Completionist",
+      "advancements.get_haakons_kedge.title": "Forgotten Anchor, Weighed",
+      "advancements.get_haakons_kedge.descr": "Discover Haakon\u0027s Kedge.",
+      "advancements.get_polaris.title": "Northbound, Unbroken",
+      "advancements.get_polaris.descr": "Discover Polaris.",
+      "advancements.get_the_pylon.title": "Thunderous Retort, Witnessed",
+      "advancements.get_the_pylon.descr": "Discover The Pylon.",
+      "advancements.get_moonshot.title": "Paracausal Warp, Overdriven",
+      "advancements.get_moonshot.descr": "Discover Moonshot.",
+      "advancements.get_crimson_divisor.title": "Redstone Engineering, Perfected",
+      "advancements.get_crimson_divisor.descr": "Discover Crimson Divisor.",
+      "advancements.get_silent_phalanx.title": "Dread Bastion, Defended",
+      "advancements.get_silent_phalanx.descr": "Discover Silent Phalanx.",
+      "advancements.get_electric_head.title": "Endless Amperage, Discharged",
+      "advancements.get_electric_head.descr": "Discover Electric Head.",
+      "advancements.get_bunker_in_place.title": "Global Catastrophe, Unscathed",
+      "advancements.get_bunker_in_place.descr": "Discover Bunker In Place.",
+      "advancements.get_mirewaders.title": "Final Stand, Unending",
+      "advancements.get_mirewaders.descr": "Discover Mirewaders.",
+      "advancements.get_sandwalk_wraps.title": "Rhythmless Walk, Echoed",
+      "advancements.get_sandwalk_wraps.descr": "Discover Sandwalk Wraps.",
+      "advancements.get_armadan_repulsors.title": "Obsidian Freefall, Averted",
+      "advancements.get_armadan_repulsors.descr": "Discover Armadan Repulsors.",
+      "effect.destinedtraits.nowhere_fast_effect": "Nowhere Fast",
+      "advancements.enhance.descr": "Discover an item with an enhanced trait.",
+      "advancements.enhance.title": "Enhance!",
+      "advancements.more_vault_space.descr": "Discover 1,000 different randomly rolled items. Do you ever throw anything away?",
+      "advancements.more_vault_space.title": "We\u0027re Gonna Need a Bigger Vault",
+      "advancements.pathfinder_collection.title": "Pathfinder Collection",
+      "advancements.pathfinder_collection.descr": "Discover all Jungle exotics.",
+      "advancements.rimebound_collection.title": "Rimebound Collection",
+      "advancements.rimebound_collection.descr": "Discover all arctic exotics.",
+      "advancements.marshland_collection.title": "Marshland Collection",
+      "advancements.marshland_collection.descr": "Discover all swamp exotics.",
+      "advancements.skyscraper_collection.title": "Skyscraper Collection",
+      "advancements.skyscraper_collection.descr": "Discover all mountain exotics.",
+      "advancements.sandswept_collection.title": "Sandswept Collection",
+      "advancements.sandswept_collection.descr": "Discover all desert exotics.",
+      "advancements.get_alchemy_carve.descr": "Discover the Alchemy Carve.",
+      "advancements.get_alchemy_carve.title": "Noxious Brewery, Amplified",
+      "advancements.endfarer_collection.title": "Endfarer Collection",
+      "advancements.endfarer_collection.descr": "Discover all End exotics.",
+      "advancements.abyssal_collection.title": "Abyssal Collection",
+      "advancements.abyssal_collection.descr": "Discover all ocean exotics.",
+      "advancements.masterful_work.title": "Masterful Work",
+      "advancements.masterful_work.descr": "Masterwork an item in an anvil."
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/com/doctorfuture/destinedtraits/init/DestinedtraitsModConfigs.java",
+      "src/main/java/com/doctorfuture/destinedtraits/init/DestinedtraitsModKeyMappings.java",
+      "src/main/java/com/doctorfuture/destinedtraits/init/DestinedtraitsModMobEffects.java",
+      "src/main/java/com/doctorfuture/destinedtraits/init/DestinedtraitsModItems.java",
+      "src/main/resources/destinedtraits.mixins.json",
+      "src/main/java/com/doctorfuture/destinedtraits/client/renderer/SemiAquaticRenderer.java",
+      "src/main/java/com/doctorfuture/destinedtraits/world/TeleportBlockHandler.java",
+      "src/main/java/com/doctorfuture/destinedtraits/ai/MoveToBlockGoal.java",
+      "src/main/java/com/doctorfuture/destinedtraits/math/CallCounter.java",
+      "src/main/java/com/doctorfuture/destinedtraits/client/RenderUtils.java",
+      "src/main/java/com/doctorfuture/destinedtraits/entity/CustomEyeOfEnderEntity.java",
+      "src/main/java/com/doctorfuture/destinedtraits/client/CameraShakeManager.java",
+      "src/main/java/com/doctorfuture/destinedtraits/init/DestinedtraitsModTabs.java",
+      "src/main/java/com/doctorfuture/destinedtraits/math/CallCooldownManager.java",
+      "src/main/java/com/doctorfuture/destinedtraits/DestinedtraitsMod.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/com/doctorfuture/destinedtraits/entity/CustomFireballEntity.java",
+      "src/main/java/com/doctorfuture/destinedtraits/ai/MoveToStructureGoal.java",
+      "src/main/java/com/doctorfuture/destinedtraits/world/BlackHoleManager.java",
+      "src/main/java/com/doctorfuture/destinedtraits/client/CameraShakeClientEvents.java",
+      "src/main/java/com/doctorfuture/destinedtraits/world/BlockDamageHandler.java",
+      "src/main/java/com/doctorfuture/destinedtraits/network/NetworkRegister.java",
+      "src/main/java/com/doctorfuture/destinedtraits/network/DestinedtraitsModVariables.java",
+      "src/main/java/com/doctorfuture/destinedtraits/client/renderer/CustomFireballRenderer.java",
+      "src/main/java/com/doctorfuture/destinedtraits/ai/OverrideMovementGoal.java",
+      "src/main/java/com/doctorfuture/destinedtraits/ai/OrbitPositionGoal.java",
+      "src/main/java/com/doctorfuture/destinedtraits/network/CameraShakePayload.java",
+      "src/main/java/com/doctorfuture/destinedtraits/world/BlackHoleSavedData.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/com/doctorfuture/destinedtraits/client/renderer/CustomEyeOfEnderRenderer.java",
+      "src/main/java/com/doctorfuture/destinedtraits/world/PortalSavedData.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Perks",
+        "children": [
+          {
+            "name": "Armor",
+            "children": [
+              {
+                "name": "Left column",
+                "children": [
+                  {
+                    "name": "Effects",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Right column",
+                "children": [
+                  {
+                    "name": "Effect",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Origin",
+                "children": [
+                  {
+                    "name": "Effects",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Exotic",
+                "children": [
+                  {
+                    "name": "Effect",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Weapons",
+            "children": [
+              {
+                "name": "Left column",
+                "children": [
+                  {
+                    "name": "Effects",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Right column",
+                "children": [
+                  {
+                    "name": "Effects",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Origin",
+                "children": [
+                  {
+                    "name": "Effects",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "Exotic",
+                "children": [
+                  {
+                    "name": "Effects",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "destinedtraits",
+    "modName": "Destined Traits",
+    "version": "1.0.0",
+    "description": "Become legend with random traits on generated loot.",
+    "author": "DoctorFuture",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [
+      "apothic_attributes"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "com.doctorfuture.destinedtraits"
+  },
+  "mcreatorVersion": 202600233518
+}

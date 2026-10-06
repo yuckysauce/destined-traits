@@ -1,0 +1,45 @@
+{
+  "workspacePanelIconSize": "TILES",
+  "workspacePanelSortType": "CREATED",
+  "workspacePanelSortAscending": true,
+  "projectBrowserState": {
+    "expandedPaths": [
+      "[, Destined Traits]",
+      "[, Destined Traits, Source (Gradle)]",
+      "[, Destined Traits, Source (Gradle), C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\java\\com]",
+      "[, Destined Traits, Source (Gradle), C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\java\\com, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\java\\com\\doctorfuture]",
+      "[, Destined Traits, Source (Gradle), C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\java\\com, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\java\\com\\doctorfuture, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\java\\com\\doctorfuture\\destinedtraits]",
+      "[, Destined Traits, Source (Gradle), C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\java\\com, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\java\\com\\doctorfuture, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\java\\com\\doctorfuture\\destinedtraits, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\java\\com\\doctorfuture\\destinedtraits\\item]",
+      "[, Destined Traits, Source (Gradle), C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\java\\com, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\java\\com\\doctorfuture, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\java\\com\\doctorfuture\\destinedtraits, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\java\\com\\doctorfuture\\destinedtraits\\perks]",
+      "[, Destined Traits, Resources (Gradle)]",
+      "[, Destined Traits, Resources (Gradle), C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data]",
+      "[, Destined Traits, Resources (Gradle), C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data\\destinedtraits]",
+      "[, Destined Traits, Resources (Gradle), C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data\\destinedtraits, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data\\destinedtraits\\advancement]",
+      "[, Destined Traits, Resources (Gradle), C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data\\destinedtraits, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data\\destinedtraits\\destinedtraits]",
+      "[, Destined Traits, Resources (Gradle), C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data\\destinedtraits, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data\\destinedtraits\\destinedtraits, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data\\destinedtraits\\destinedtraits\\perk_pools]",
+      "[, Destined Traits, Resources (Gradle), C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data\\destinedtraits, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data\\destinedtraits\\destinedtraits, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data\\destinedtraits\\destinedtraits\\perk_pools, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data\\destinedtraits\\destinedtraits\\perk_pools\\armor]",
+      "[, Destined Traits, Resources (Gradle), C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data\\destinedtraits, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data\\destinedtraits\\loot_modifiers]",
+      "[, Destined Traits, Resources (Gradle), C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data\\neoforge]",
+      "[, Destined Traits, Resources (Gradle), C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data\\neoforge, C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\data\\neoforge\\loot_modifiers]",
+      "[, Destined Traits, Resources (Gradle), C:\\Users\\Austin\\MCreatorWorkspaces\\destinedtraits\\src\\main\\resources\\META-INF]"
+    ]
+  },
+  "leftDockState": {
+    "expandedDock": "project_browser",
+    "dockSizes": {
+      "project_browser": 280,
+      "local_history": 280
+    }
+  },
+  "rightDockState": {
+    "dockSizes": {}
+  },
+  "bottomDockState": {
+    "expandedDock": "console",
+    "dockSizes": {
+      "console": 300,
+      "code_viewer": 300,
+      "debugger": 300
+    }
+  }
+}

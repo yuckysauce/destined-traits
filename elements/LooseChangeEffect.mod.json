@@ -1,0 +1,30 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Loose Change",
+    "icon": "orb",
+    "color": {
+      "value": -16751002,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": "ATTACK_SPEED",
+        "amount": 0.5,
+        "operation": "ADD_VALUE"
+      },
+      {
+        "attribute": "MOVEMENT_SPEED",
+        "amount": 0.05,
+        "operation": "ADD_MULTIPLIED_BASE"
+      }
+    ]
+  }
+}

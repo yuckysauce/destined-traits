@@ -1,0 +1,17 @@
+{
+  "type": "destinedtraits:add_perks",
+  "conditions": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biomes": "minecraft:mushroom_fields"
+      }
+    }
+  ],
+  "tier_min": 1,
+  "tier_max": 2,
+  "biome_theme": "master",
+  "origin_trait_weapon": "destinedtraits:moo",
+  "origin_trait_armor": "destinedtraits:moo",
+  "tier_bonus": 0
+}

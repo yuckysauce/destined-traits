@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:tube_coral_block"
+    },
+    "title": {
+      "translate": "advancements.abyssal_collection.title"
+    },
+    "description": {
+      "translate": "advancements.abyssal_collection.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "haakons_kedge": {
+      "trigger": "minecraft:impossible"
+    },
+    "strides_of_the_deep": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "destinedtraits:the_life_exotic"
+}

@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:bow" },
+    "title": { "translate": "advancements.get_the_pylon.title" },
+    "description": { "translate": "advancements.get_the_pylon.descr" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": { "get_the_pylon_0": { "trigger": "minecraft:impossible" } },
+  "parent": "destinedtraits:marshland_collection"
+}

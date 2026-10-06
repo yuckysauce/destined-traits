@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:golden_chestplate" },
+    "title": { "translate": "advancements.get_bunker_in_place.title" },
+    "description": { "translate": "advancements.get_bunker_in_place.descr" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": { "get_bunker_in_place_0": { "trigger": "minecraft:impossible" } },
+  "parent": "destinedtraits:sandswept_collection"
+}

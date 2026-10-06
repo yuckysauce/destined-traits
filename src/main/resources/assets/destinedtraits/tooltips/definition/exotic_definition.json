@@ -1,0 +1,8 @@
+{
+  "priority": 50,
+  "style": "destinedtraits:exotic_style",
+  "filter": {
+    "type": "obscure_tooltips:nbt",
+    "nbt": "{is_exotic:1b}"
+  }
+}

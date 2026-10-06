@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:leather_boots" },
+    "title": { "translate": "advancements.get_sandwalk_wraps.title" },
+    "description": { "translate": "advancements.get_sandwalk_wraps.descr" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": { "get_sandwalk_wraps_0": { "trigger": "minecraft:impossible" } },
+  "parent": "destinedtraits:sandswept_collection"
+}

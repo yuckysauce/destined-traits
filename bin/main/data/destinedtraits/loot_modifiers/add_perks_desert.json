@@ -1,0 +1,28 @@
+{
+  "type": "destinedtraits:add_perks",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "biomes": "#c:is_desert"
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "biomes": "#minecraft:is_badlands"
+          }
+        }
+      ]
+    }
+  ],
+  "tier_min": 1,
+  "tier_max": 2,
+  "biome_theme": "desert",
+  "origin_trait_weapon": "destinedtraits:glass_them",
+  "origin_trait_armor": "destinedtraits:flowing_vitreum",
+  "tier_bonus": 0
+}

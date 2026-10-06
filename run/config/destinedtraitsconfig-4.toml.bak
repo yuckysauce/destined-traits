@@ -1,0 +1,2 @@
+#Controls the percentage chance that a randomly rolled item will be replaced by a bespoke Exotic item.
+exotic_drop_rate = 0.5

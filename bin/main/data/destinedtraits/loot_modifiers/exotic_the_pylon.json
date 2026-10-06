@@ -1,0 +1,25 @@
+{
+  "type": "destinedtraits:exotic_injection",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": { "biomes": "minecraft:swamp" }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "predicate": { "biomes": "minecraft:mangrove_swamp" }
+        }
+      ]
+    }
+  ],
+  "base_item": "minecraft:bow",
+  "custom_name": "The Pylon",
+  "perks": {
+    "origin_trait": "destinedtraits:superconductor"
+  },
+  "tier_min": 1,
+  "tier_max": 1
+}

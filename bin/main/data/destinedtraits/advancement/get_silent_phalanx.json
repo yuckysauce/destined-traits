@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:shield" },
+    "title": { "translate": "advancements.get_silent_phalanx.title" },
+    "description": { "translate": "advancements.get_silent_phalanx.descr" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": { "get_silent_phalanx_0": { "trigger": "minecraft:impossible" } },
+  "parent": "destinedtraits:sandswept_collection"
+}

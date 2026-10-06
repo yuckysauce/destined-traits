@@ -1,0 +1,18 @@
+{
+  "type": "destinedtraits:exotic_injection",
+  "conditions": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biomes": "#c:is_snowy"
+      }
+    }
+  ],
+  "base_item": "minecraft:iron_sword",
+  "custom_name": "Polaris",
+  "perks": {
+    "origin_trait": "destinedtraits:north_star"
+  },
+  "tier_min": 1,
+  "tier_max": 1
+}

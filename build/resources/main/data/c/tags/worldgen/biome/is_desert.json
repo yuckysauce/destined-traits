@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "biomesoplenty:lush_desert", "required": false }
+  ]
+}

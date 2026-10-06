@@ -1,0 +1,16 @@
+{
+  "type": "destinedtraits:exotic_injection",
+  "conditions": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": { "biomes": "#c:is_mountain" }
+    }
+  ],
+  "base_item": "minecraft:iron_helmet",
+  "custom_name": "Electric Head",
+  "perks": {
+    "origin_trait": "destinedtraits:the_agony"
+  },
+  "tier_min": 1,
+  "tier_max": 1
+}

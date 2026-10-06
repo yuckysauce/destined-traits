@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chiseled_stone_bricks"
+    },
+    "title": {
+      "translate": "advancements.skyscraper_collection.title"
+    },
+    "description": {
+      "translate": "advancements.skyscraper_collection.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+  "cycadian_arbor": {
+    "trigger": "minecraft:impossible"
+  },
+  "alchemy_carve": {
+    "trigger": "minecraft:impossible"
+  }
+  },
+  "parent": "destinedtraits:the_life_exotic"
+}

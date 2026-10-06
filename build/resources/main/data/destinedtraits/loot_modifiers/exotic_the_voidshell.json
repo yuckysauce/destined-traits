@@ -1,0 +1,18 @@
+{
+  "type": "destinedtraits:exotic_injection",
+  "conditions": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biomes": "minecraft:the_end"
+      }
+    }
+  ],
+  "base_item": "minecraft:diamond_chestplate",
+  "custom_name": "The Voidshell",
+  "perks": {
+  	"origin_trait": "destinedtraits:ender_artillery"
+  },
+  "tier_min": 1,
+  "tier_max": 1
+}

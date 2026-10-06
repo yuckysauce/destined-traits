@@ -1,0 +1,25 @@
+{
+  "type": "destinedtraits:exotic_injection",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:archaeology/ocean_ruin_warm"
+        },
+        {
+          "condition": "neoforge:loot_table_id",
+          "loot_table_id": "minecraft:archaeology/ocean_ruin_cold"
+        }
+      ]
+    }
+  ],
+  "base_item": "minecraft:trident",
+  "custom_name": "Haakon's Kedge",
+  "perks": {
+  	"origin_trait": "destinedtraits:nowhere_fast"
+  },
+  "tier_min": 1,
+  "tier_max": 1
+}

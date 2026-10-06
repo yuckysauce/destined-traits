@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:iron_sword" },
+    "title": { "translate": "advancements.get_polaris.title" },
+    "description": { "translate": "advancements.get_polaris.descr" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": { "get_polaris_0": { "trigger": "minecraft:impossible" } },
+  "parent": "destinedtraits:rimebound_collection"
+}

@@ -1,0 +1,12 @@
+{
+  "_fv": 89,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.1,
+    "scaling": "never",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s cut themselves on glass.",
+    "itemDeathMessage": "%1$s was cut by glass by %2$s using %3$s",
+    "playerDeathMessage": "%1$s cut themselves on glass trying to escape %2$s"
+  }
+}

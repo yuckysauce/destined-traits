@@ -1,0 +1,16 @@
+{
+  "type": "destinedtraits:exotic_injection",
+  "conditions": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": { "dimension": "minecraft:the_end" }
+    }
+  ],
+  "base_item": "minecraft:crossbow",
+  "custom_name": "Moonshot",
+  "perks": {
+    "origin_trait": "destinedtraits:clean_landing"
+  },
+  "tier_min": 1,
+  "tier_max": 1
+}

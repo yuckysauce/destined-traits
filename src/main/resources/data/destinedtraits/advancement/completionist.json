@@ -1,0 +1,80 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_block"
+    },
+    "title": {
+      "translate": "advancements.completionist.title"
+    },
+    "description": {
+      "translate": "advancements.completionist.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cycadian_arbor": {
+      "trigger": "minecraft:impossible"
+    },
+    "hades_arcanum": {
+      "trigger": "minecraft:impossible"
+    },
+    "the_executioner": {
+      "trigger": "minecraft:impossible"
+    },
+    "warden_of_eternities": {
+      "trigger": "minecraft:impossible"
+    },
+    "the_voidshell": {
+      "trigger": "minecraft:impossible"
+    },
+    "strides_of_the_deep": {
+      "trigger": "minecraft:impossible"
+    },
+    "haakons_kedge": {
+      "trigger": "minecraft:impossible"
+    },
+    "soulfire_diadem": {
+      "trigger": "minecraft:impossible"
+    },
+    "alchemy_carve": {
+      "trigger": "minecraft:impossible"
+    },
+    "polaris": {
+      "trigger": "minecraft:impossible"
+    },
+    "the_pylon": {
+      "trigger": "minecraft:impossible"
+    },
+    "moonshot": {
+      "trigger": "minecraft:impossible"
+    },
+    "crimson_divisor": {
+      "trigger": "minecraft:impossible"
+    },
+    "silent_phalanx": {
+      "trigger": "minecraft:impossible"
+    },
+    "electric_head": {
+      "trigger": "minecraft:impossible"
+    },
+    "bunker_in_place": {
+      "trigger": "minecraft:impossible"
+    },
+    "mirewaders": {
+      "trigger": "minecraft:impossible"
+    },
+    "sandwalk_wraps": {
+      "trigger": "minecraft:impossible"
+    },
+    "armadan_repulsors": {
+      "trigger": "minecraft:impossible"
+    },
+    "fire_when_ready": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "destinedtraits:treasure_hunter"
+}

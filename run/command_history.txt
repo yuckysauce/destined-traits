@@ -1,0 +1,50 @@
+/tp @e @s
+/summon minecraft:wandering_trader
+/summon minecraft:warden
+/enchant @s minecraft:loyalty 3
+/summon minecraft:warden
+/tp @e[type=item] @s
+/tp @e[type=minecraft:trident] @s
+/tp @e @s
+/clear
+/destinedtraits give_exotic the_voidshell
+/destinedtraits give_exotic alchemy_carve
+/clear
+/kill
+/apothic_attributes_client
+/apothic_attributes_client set_btn_pos bottom_center
+/advancement revoke @s everything
+/time set day
+/weather clear
+/destinedtraits give_exotic strides_of_the_deep
+/destinedtraits give_exotic cycadian_arbor
+/destinedtraits give_exotic crown_of_flames
+/destinedtraits give_exotic the_voidshell
+/destinedtraits give_exotic strides_of_the_deep
+/clear
+/destinedtraits give_exotic strides_of_the_deep
+/destinedtraits give_exotic alchemy_carve
+/destinedtraits give_exotic warden_of_eternities
+/give @s chest[container_loot={loot_table:"destinedtraits:modded_test"}]
+/destinedtraits give_exotic strides_of_the_deep
+/destinedtraits give_exotic cycadian_arbor
+/destinedtraits give_exotic crown_of_flames
+/time set night
+/summon minecraft:warden
+/enchant @s minecraft:quick_charge 3
+/locate biome minecraft:deep_dark
+/tp @s -297 -47 -124
+/kill
+/tp @s -297 -47 -124
+/kill @e[type=item]
+/kill
+/effect give @s minecraft:invisibility infinite
+/time set night
+/destinedtraits give_exotic armadan_repulsors
+/destinedtraits give_exotic the_pylon
+/destinedtraits give_exotic crimson_divisor
+/gamerule doFireTick false
+/destinedtraits give_exotic moonshot
+/destinedtraits give_exotic polaris
+/time set night
+/enchant @s minecraft:multishot

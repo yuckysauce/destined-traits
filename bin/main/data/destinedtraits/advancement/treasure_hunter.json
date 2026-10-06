@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_ingot"
+    },
+    "title": {
+      "translate": "advancements.treasure_hunter.title"
+    },
+    "description": {
+      "translate": "advancements.treasure_hunter.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "warden_of_eternities": {
+      "trigger": "minecraft:impossible"
+    },
+    "haakons_kedge": {
+      "trigger": "minecraft:impossible"
+    },
+    "fire_when_ready": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "destinedtraits:the_life_exotic"
+}

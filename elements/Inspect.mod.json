@@ -1,0 +1,9 @@
+{
+  "_fv": 89,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "Z",
+    "keyBindingName": "Inspect",
+    "keyBindingCategoryKey": "inventory"
+  }
+}

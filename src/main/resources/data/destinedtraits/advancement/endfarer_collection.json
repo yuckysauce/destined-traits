@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_stone"
+    },
+    "title": {
+      "translate": "advancements.endfarer_collection.title"
+    },
+    "description": {
+      "translate": "advancements.endfarer_collection.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_voidshell": {
+      "trigger": "minecraft:impossible"
+    },
+    "moonshot": {
+      "trigger": "minecraft:impossible"
+    },
+    "armadan_repulsors": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "destinedtraits:the_life_exotic"
+}

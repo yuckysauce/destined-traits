@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    { "id": "biomesoplenty:kelp_forest", "required": false },
+    { "id": "biomesoplenty:coral_reef", "required": false }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "left_column": [
+    "destinedtraits:perfect_float",
+    "destinedtraits:attrition_orbs",
+    "destinedtraits:subsistence",
+    "destinedtraits:cauterize",
+    "destinedtraits:field_prep",
+    "destinedtraits:quickdraw"
+  ],
+  "right_column": [
+    "destinedtraits:withering_touch",
+    "destinedtraits:rampage",
+    "destinedtraits:target_lock",
+    "destinedtraits:high_ground",
+    "destinedtraits:frenzy",
+    "destinedtraits:adagio"
+  ]
+}

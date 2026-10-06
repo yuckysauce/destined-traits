@@ -1,0 +1,18 @@
+{
+  "type": "destinedtraits:exotic_injection",
+  "conditions": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "biomes": "#minecraft:is_jungle"
+      }
+    }
+  ],
+  "base_item": "minecraft:shield",
+  "custom_name": "Cycadian Arbor",
+  "perks": {
+  	"origin_trait": "destinedtraits:photosynthetic"
+  },
+  "tier_min": 1,
+  "tier_max": 1
+}

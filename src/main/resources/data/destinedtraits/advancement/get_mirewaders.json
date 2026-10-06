@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:leather_leggings" },
+    "title": { "translate": "advancements.get_mirewaders.title" },
+    "description": { "translate": "advancements.get_mirewaders.descr" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": { "get_mirewaders_0": { "trigger": "minecraft:impossible" } },
+  "parent": "destinedtraits:marshland_collection"
+}

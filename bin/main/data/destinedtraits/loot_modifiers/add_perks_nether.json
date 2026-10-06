@@ -1,0 +1,17 @@
+{
+  "type": "destinedtraits:add_perks",
+  "conditions": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "dimension": "minecraft:the_nether"
+      }
+    }
+  ],
+  "tier_min": 1,
+  "tier_max": 2,
+  "biome_theme": "nether",
+  "origin_trait_weapon": "destinedtraits:infernality",
+  "origin_trait_armor": "destinedtraits:magma_skin",
+  "tier_bonus": 0
+}

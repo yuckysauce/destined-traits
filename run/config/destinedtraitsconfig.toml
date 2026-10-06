@@ -1,0 +1,10 @@
+#Controls the percentage chance that a randomly rolled item will be replaced by a bespoke Exotic item.
+exotic_drop_rate = 0.5
+#Controls the base XP cost per tier for using a Paracausal Mote.
+tier_upgrade_cost = 7.0
+#Controls how much XP must be collected to activate certain perks.
+xp_perk_requirement = 42.0
+#Controls how much XP must be collected to earn a Paracausal Mote.
+# Default: 1395
+# Range: 1 ~ 1000000
+xp_mote_requirement = 1395

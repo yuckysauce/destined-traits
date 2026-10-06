@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": { "id": "minecraft:iron_helmet" },
+    "title": { "translate": "advancements.get_electric_head.title" },
+    "description": { "translate": "advancements.get_electric_head.descr" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": { "get_electric_head_0": { "trigger": "minecraft:impossible" } },
+  "parent": "destinedtraits:skyscraper_collection"
+}

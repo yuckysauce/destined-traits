@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "destinedtraits:paracausal_mote"
+    },
+    "title": {
+      "translate": "advancements.bank_those_motes.title"
+    },
+    "description": {
+      "translate": "advancements.bank_those_motes.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bank_those_motes_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "destinedtraits:enhance"
+}

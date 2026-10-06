@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_leggings"
+    },
+    "title": {
+      "translate": "advancements.get_strides_of_the_deep.title"
+    },
+    "description": {
+      "translate": "advancements.get_strides_of_the_deep.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_strides_of_the_deep_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "destinedtraits:abyssal_collection"
+}

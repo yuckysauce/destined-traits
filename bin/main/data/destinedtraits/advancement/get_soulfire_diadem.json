@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chainmail_helmet"
+    },
+    "title": {
+      "translate": "advancements.get_soulfire_diadem.title"
+    },
+    "description": {
+      "translate": "advancements.get_soulfire_diadem.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_soulfire_diadem_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "destinedtraits:infernal_collection"
+}

@@ -1,0 +1,4 @@
+#Controls the percentage chance that a randomly rolled item will be replaced by a bespoke Exotic item.
+exotic_drop_rate = 0.5
+#Controls the base XP cost per tier for using a Paracausal Mote.
+tier_upgrade_cost = 7.0
